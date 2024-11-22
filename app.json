@@ -3,32 +3,32 @@
   "description": "سـورس تيبثـون العربـي كامـل ومتطـور • رمضان كريم 🌙 .",
   "logo": ".",
   "keywords": ["plugin","modular","productivity"],
-  "repository": "https://github.com/tepthon-arabic/Aya",
+  "repository": "https://github.com/Tepthonee/Dea",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
-    "APP_ID": {
+    "API_ID": {
       "description": "كـود أيبـي أيـدي〔 App id 〕لا تغيرهـا",
-      "value": "27455984"
+      "value": ""
     },
     "API_HASH": {
       "description": "كـود أيبـي هـاش〔 Api hash 〕..لا تغيرهـا",
-      "value": "62d5f68ce2e9189636967120220f5755"
+      "value": ""
     },
-    "STRING_SESSION": {
+    "SESSION": {
       "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن بـوت تيرمكــس",
       "value": ""
     },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
       "value": ""
     },
-    "HEROKU_API_KEY": {
+    "REDIS_URL": {
       "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـة وتنسـخ الكـود لهنـا",
       "value": "",
       "required": false
     },
-    "HEROKU_APP_NAME": {
+    "REDIS_PASSWORD": {
       "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف إنجليزية صغيرة",
       "value": "",
       "required": false
