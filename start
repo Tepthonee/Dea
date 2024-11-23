@@ -84,7 +84,7 @@ _set_bot () {
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
     echo "    جار بدء تيبثون    "
-    echo "
+    echo
 
     python3 -m Tepthon
 }
