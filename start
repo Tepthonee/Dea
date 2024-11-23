@@ -86,7 +86,7 @@ _set_bot () {
     echo "    جار بدء تيبثون    "
     echo "
         "\n",
-        "def run():\n",
+        "def run"\n
         "    try:\n",
         "        if None in (SESSION, API_ID, API_HASH, BOT_TOKEN, REDIS_URI, REDIS_PASSWORD) and contains_value(0, env_stats):\n",
         "            print(\"! لم يتم تعيين المتغيرات بشكل يدوي\")\n",
