@@ -85,28 +85,7 @@ _set_bot () {
     chmod -R 755 bin
     echo "    جار بدء تيبثون    "
     echo "
-        "\n",
-        "def run"\n
-        "    try:\n",
-        "        if None in (SESSION, API_ID, API_HASH, BOT_TOKEN, REDIS_URI, REDIS_PASSWORD) and contains_value(0, env_stats):\n",
-        "            print(\"! لم يتم تعيين المتغيرات بشكل يدوي\")\n",
-        "            print(\"! قسم تعيين المتغيرات فارغ قم بملئ اماكن الادخال\")\n",
-        "        elif not None in (SESSION, API_ID, API_HASH, BOT_TOKEN, REDIS_URI, REDIS_PASSWORD) and contains_value(0, env_stats):\n",
-        "            print(\"! تم تعيين المتغيرات بشكل يدوي\")\n",
-        "            print(\"...env جاري انشاء ملف\")\n",
-        "            env_content = f\"\"\"API_ID={API_ID}\n",
-        "API_HASH={API_HASH}\n",
-        "SESSION={SESSION}\n",
-        "BOT_TOKEN={BOT_TOKEN}\n",
-        "REDIS_URI={REDIS_URI}\n",
-        "REDIS_PASSWORD={REDIS_PASSWORD}\n",
-        "\"\"\"\n",
-        "            with open('env', 'w') as file:\n",
-        "                file.write(env_content)\n",
-        "\n",
-        "            os.system(\"rm -rf ./Tepthon/.env && cp env ./Tepthon/.env\")\n",
-        "            print(\"env تم تعيين ملف\")\n",
-    "
+
     python3 -m Tepthon
 }
 
