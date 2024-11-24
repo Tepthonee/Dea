@@ -1,8 +1,8 @@
-FROM tepthon-arabic/Tepthon:slim-buster
+FROM TepthonAr/Tepthon:slim-buster
 
-RUN git clone https://github.com/tepthon-arabic/Tepthon /root/Tepthon
+RUN git clone https://github.com/TepthonAr/Tepthon /root/Tepthon
 
-WORKDIR /root/sbb_b
+WORKDIR /root/Tepthon
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
